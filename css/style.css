@@ -1,0 +1,182 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #dadada;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.arrow {
+  display: inline-block;
+  float: left;
+  margin-top: 2px;
+  font-size: 40%;
+  color: #129AA1;
+}
+.busroute:hover {
+  background-color: #F6F6F6;
+} /* mouse over */
+.busroute-na:hover {
+  background-color: #F6F6F6;
+} /* mouse over */
+.busroute-oos:hover {
+  background-color: #F6F6F6;
+  } /* mouse over */
+
+.bus-number {
+  display: inline-block;
+  padding: 4%;
+}
+.bus-number h1 {
+  font-size: 15pt;
+  font-weight: 600;
+  text-align: center;
+  color: #129AA1;
+}
+.bus-number h4 {
+  font-size: 15pt;
+  font-weight: 600;
+  text-align: center;
+  color: #69B13F;
+}
+.bus-number h5 {
+  font-size: 15pt;
+  font-weight: 600;
+  text-align: center;
+  color: #8C8C8C;
+}
+.bus-route {
+  display: inline-block;
+  position: absolute;
+  padding: 2%;
+  color: black;
+}
+
+.bus-route h1 {
+  font-size: 10pt;
+  font-weight: 600;
+  line-height: 18pt;
+}
+.bus-route h2 {
+  font-size: 10pt;
+  font-weight: 400;
+}
+.bus-route h3 {
+  font-size: 10pt;
+  font-weight: 400;
+  line-height: 20pt;
+  color: #8C8C8C;
+}
+.bus-arrival {
+  display: inline-block;
+  position: absolute;
+  float: right;
+  font-size: 10pt;
+  font-weight: 600;
+  padding: 14% 0 0 50%;
+  color: #129AA1;
+}
+.bus-arrival h2{
+  display: inline-block;
+  position: absolute;
+  text-align: right;
+  width: 60%;
+  font-size: 18pt;
+  color: #FDBC14;
+}
+.bus-arrival h3 {
+  display: inline-block;
+  position: absolute;
+  width: 20%;
+  font-size: 10pt;
+  font-weight: 600;
+  color: #8C8C8C;
+}
+
+.bus-arrival h4 {
+  font-size: 10pt;
+  font-weight: 600;
+  color: #8C8C8C;
+}
+.busesavailable {
+  display:block;
+}
+.busesavailable h1 {
+  display: inline-block;
+  border-style: solid;
+  border: 1px;
+}
+.container {
+  position: absolute;
+  background-color: #ffffff;
+  width: 375px;
+  height: 812px;
+}
+.list {
+  display: block;
+}
+.location {
+  display: inline-block;
+  position: absolute;
+  color: black;
+  font-size: 13pt;
+  font-weight: 600;
+  width: 90%;
+  text-align: center;
+}
+.navbar {
+  display: block;
+  padding: 11px 0px 0px 6px;
+  width: 375px;
+  height: 2.45em;
+  border-bottom: 1px;
+  border-style: solid;
+  color: #66DDE3;
+  background-color: #E2FAFB;
+}
+.status h1{
+  display: inline-block;
+  font-size: 70%;
+  font-weight: 400;
+}
+.statuscenter h2 {
+  font-size: 70%;
+}
+.status{
+  display:block;
+  padding:1px 5px 5px 5px;
+  width: auto;
+  height: 20px;
+  background-color: #66DDE3;
+  color: black;
+}
+.statusleft {
+  display: inline-block;
+  float: left;
+}
+.statuscenter {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+.statusright {
+  display: inline-block;
+  float: right;
+}
+
+.top {
+  display: block;
+  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
