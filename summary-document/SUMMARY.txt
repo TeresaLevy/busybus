@@ -1,0 +1,22 @@
+Challenges faced in coding: 
+ 
+
+Finding proper sizing to code with in pixels for iOS was difficult. I did read the guidelines, but they do not provide specific pixel sizing,
+so I had to search as much as I could, and do math to convert from retina pixel sizing to non-retina sizing.  
+ 
+
+
+I also had a hard time with tucking my list underneath the header, but after extensive searching found the position: sticky worked 
+with adding the webkit to the CSS as well. I applied styling to the text to make it iOS sizing in the list, but when the list was too 
+large it did scroll off the screen page size, and I could not figure out to keep it in within the screen window size.  
+ 
+
+
+Despite trying several different ways, I was unable to get the warning sign above the arrival time information with the box method, so 
+it does not match my visual design from the previous challenge.  
+ 
+
+
+I did learn how to better deploy the box method, and being very visually 
+oriented, I was filling in the boxes with a color to aid my understanding in how to move them around while coding. I also learned more 
+about the iOS styling and adjusted the coding to better match than my previous Visual Design Challenge.

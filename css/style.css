@@ -11,7 +11,6 @@ body {
 
 .arrow {
   display: inline-block;
-  float: left;
   margin-top: 0px;
   font-size: 60%;
   color: #129AA1;
@@ -123,29 +122,29 @@ body {
   line-height: 20pt;
   color: #E52D1F;
 }
+
 .container {
   position: absolute;
   background-color: #ffffff;
   width: 375px;
-  height: 812px;
 }
 .list {
   display: block;
 }
 .location {
   display: inline-block;
-  position: absolute;
   color: black;
+  position: absolute;
   font-size: 10pt;
   font-weight: 670;
+  padding 0 0 0 0;
   width: 88%;
   text-align: center;
 }
 .navbar {
   display: block;
-  padding: 11px 0px 0px 6px;
+  padding: 11px 0px 6px 6px;
   width: 375px;
-  height: 2.45em;
   border-bottom: 1px;
   border-style: solid;
   color: #66DDE3;
