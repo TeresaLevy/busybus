@@ -121,7 +121,6 @@ body {
 }
 .content {
   display: block;
-  padding 0 0 0 0;
   width: 100%;
 }
 
@@ -143,9 +142,9 @@ body {
   text-align: center;
 }
 .navbar {
-  display: block;
+  display: inline-block;
   padding: 11px 0px 6px 6px;
-  width: 375px;
+  width: 100%;
   border-bottom: 1px;
   border-style: solid;
   color: #66DDE3;
